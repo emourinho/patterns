@@ -1,0 +1,11 @@
+{
+  "name": "patterns",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:emourinho/patterns.git",
+  "author": "Everton Mourinho <everton.mourinho@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
