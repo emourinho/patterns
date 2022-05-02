@@ -1,4 +1,5 @@
 const DataContext = React.createContext();
+const useData = React.useContext(DataContext)
 
 function App() {
   const data = {}
@@ -17,16 +18,16 @@ const Content = () => <div><Header /><Block /></div>
 
 
 function ListItem() {
-  const { data } = React.useContext(DataContext);
+  const { data } = useData();
   return <span>{data.listItem}</span>;
 }
 
 function Text() {
-  const { data } = React.useContext(DataContext);
+  const { data } = useData();
   return <h1>{data.text}</h1>;
 }
 
 function Header() {
-  const { data } = React.useContext(DataContext);
+  const { data } = useData();
   return <div>{data.title}</div>;
 }

@@ -28,7 +28,8 @@ const personProxy = new Proxy(person, {
 });
 
 personProxy.name;
-personProxy.nonExistentProperty;
 personProxy.age = 43;
 
-console.log({ person })
+personProxy.nonExistentProperty;
+
+console.log({ personProxy })
