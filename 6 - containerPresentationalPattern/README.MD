@@ -5,7 +5,7 @@ No React, uma maneira de impor a separação de interesses é usando o padrão C
 ### Prós
 Há muitos benefícios em usar o padrão Container/Presentational.
 
-O padrão Container/Presentation incentiva a separação de interesses. Os componentes de apresentação podem ser funções puras que são responsáveis ​​pela interface do usuário, enquanto os componentes de contêiner são responsáveis ​​pelo estado e pelos dados do aplicativo. Isso facilita a aplicação da separação de interesses.
+O padrão Container/Presentational incentiva a separação de interesses. Os componentes de apresentação podem ser funções puras que são responsáveis ​​pela interface do usuário, enquanto os componentes de contêiner são responsáveis ​​pelo estado e pelos dados do aplicativo. Isso facilita a aplicação da separação de interesses.
 
 Os componentes de apresentação são facilmente reutilizáveis, pois eles simplesmente exibem dados sem alterar esses dados. Podemos reutilizar os componentes de apresentação em todo o nosso aplicativo para diferentes propósitos.
 
